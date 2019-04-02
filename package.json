@@ -40,8 +40,10 @@
     "scriptkit": "^2.0.1"
   },
   "scriptkit": {
-    "formats": {
-      "cjs": true
+    "scripts": {
+      "formats": {
+        "cjs": true
+      }
     },
     "files": {
       "dist/tinybounce.js": "index.js"
