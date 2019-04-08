@@ -2,8 +2,8 @@
   "name": "tinybounce",
   "version": "1.0.1",
   "description": "Tiny debounce lib",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/tinybounce.js",
+  "module": "dist/tinybounce.esm.js",
   "scripts": {
     "start": "scriptkit",
     "dev": "scriptkit dev",
