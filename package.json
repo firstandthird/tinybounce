@@ -2,11 +2,12 @@
   "name": "tinybounce",
   "version": "1.1.0",
   "description": "Tiny debounce lib",
-  "main": "dist/tinybounce.js",
-  "module": "dist/tinybounce.esm.js",
+  "main": "dist/tinybounce.cjs.js",
+  "module": "dist/tinybounce.js",
   "scripts": {
     "start": "scriptkit",
     "dev": "scriptkit dev",
+    "build": "scriptkit build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "scriptkit"
   },
@@ -34,10 +35,10 @@
     "extends": "firstandthird"
   },
   "devDependencies": {
-    "eslint-config-firstandthird": "^4.3.0",
-    "eslint-plugin-compat": "^2.7.0",
-    "eslint-plugin-import": "^2.16.0",
-    "scriptkit": "^2.0.1"
+    "eslint-config-firstandthird": "^4.4.0",
+    "eslint-plugin-compat": "^3.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "scriptkit": "^3.0.0"
   },
   "scriptkit": {
     "scripts": {
